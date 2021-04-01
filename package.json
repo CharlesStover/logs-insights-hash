@@ -1,18 +1,18 @@
 {
-  "name": "package-name",
+  "name": "logs-insights-hash",
   "version": "1.0.0",
-  "author": "Charles Stover <PACKAGE-NAME@charlesstover.com>",
-  "description": "DESCRIPTION",
-  "homepage": "https://www.npmjs.com/package/PACKAGE-NAME",
+  "author": "Charles Stover <logs-insights-hash@charlesstover.com>",
+  "description": "generates a CloudWatch Logs Insights URL hash",
+  "homepage": "https://www.npmjs.com/package/logs-insights-hash",
   "license": "MIT",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.mjs",
-  "repository": "github:CharlesStover/PACKAGE-NAME",
+  "repository": "github:CharlesStover/logs-insights-hash",
   "type": "module",
   "types": "./types/index.d.ts",
   "bugs": {
-    "email": "PACKAGE-NAME@charlesstover.com",
-    "url": "https://github.com/CharlesStover/PACKAGE-NAME/issues"
+    "email": "logs-insights-hash@charlesstover.com",
+    "url": "https://github.com/CharlesStover/logs-insights-hash/issues"
   },
   "directories": {
     "lib": "src"
@@ -39,40 +39,21 @@
     "test-watch": "jest --coverage=false --watch"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-json": "^4.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.0",
-    "@rollup/plugin-url": "^4.0.0",
-    "@testing-library/react": "^11.0.0",
-    "@testing-library/react-hooks": "^3.0.0",
-    "@types/jest": "^26.0.0",
-    "@types/node": "^14.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "@types/testing-library__react-hooks": "^3.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.0.0",
-    "@typescript-eslint/parser": "^4.0.0",
-    "eslint": "^7.0.0",
-    "eslint-config-prettier": "^7.0.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.0.0",
-    "eslint-plugin-react-hooks": "^4.0.0",
-    "jest": "^26.0.0",
-    "node-sass": "^4.0.0",
-    "postcss-url": "^8.0.0",
-    "prettier": "^2.0.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "react-test-renderer": "^17.0.0",
-    "rollup": "^2.0.0",
-    "rollup-plugin-postcss": "^2.0.0",
-    "rollup-plugin-typescript2": "^0.29.0",
-    "ts-jest": "^26.0.0",
-    "tslib": "^2.0.0",
-    "typescript": "^4.1.0"
-  },
-  "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0"
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "rollup": "^2.44.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "ts-jest": "^26.5.4",
+    "tslib": "^2.1.0",
+    "typescript": "^4.2.3"
   }
 }
