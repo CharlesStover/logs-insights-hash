@@ -1,6 +1,6 @@
 {
   "name": "logs-insights-hash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Charles Stover <logs-insights-hash@charlesstover.com>",
   "description": "generates a CloudWatch Logs Insights URL hash",
   "homepage": "https://www.npmjs.com/package/logs-insights-hash",
@@ -28,7 +28,7 @@
   "publishConfig": {
     "access": "public",
     "main": "./dist/cjs/index.js",
-    "module": "./dist/esm/index.mjs"
+    "module": "./dist/esm/index.js"
   },
   "scripts": {
     "build": "rollup --config",
